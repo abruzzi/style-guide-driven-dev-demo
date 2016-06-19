@@ -1,0 +1,24 @@
+/**
+  * @stylesheet buttons.css Buttons
+  * @parent styles
+  *
+  * @description
+  * This buttons page is being pulled from documentation in the`buttons.css` file.
+  *
+  * @demo demos/buttons.html
+**/
+   
+button {
+   background-color: skyblue;
+   border: 1px solid skyblue;
+   border-radius: 5px;
+   color: white;
+   font-size: 18px;
+   padding: 10px 20px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+  cursor: pointer;
+}
